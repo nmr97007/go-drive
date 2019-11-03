@@ -5,9 +5,8 @@ var authConfig = {
     "theme" : "material", // material  classic 
     "client_id": "202264815644.apps.googleusercontent.com", // Google Client ID
     "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Google Client Secret
-    "refresh_token": "", // token
+    "refresh_token": "", // Refresh token
     "root": "root" // Root directory
-     
 };
 
 var gd;
@@ -18,6 +17,10 @@ var html = `
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+  <meta name="robots" content="noindex">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS/icons/favicon-16x16.png">
   <title>${authConfig.siteName}</title>
   <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/ParveenBhadooOfficial/goindex@${authConfig.version}/themes/${authConfig.theme}/app.js"></script>
   <style>
