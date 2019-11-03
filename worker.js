@@ -1,11 +1,11 @@
 var authConfig = {
     "siteName": "Google Drive", // Site Name
     "root_pass": "",  // Root Password
-    "version" : "1.0.6", // Site Version
+    "version" : "2.0", // Site Version
     "theme" : "material", // material  classic 
-    "client_id": "58094879805-2k4u6f17pfn7fm68kg31fcr4ah7slm0d.apps.googleusercontent.com", // Google Client ID
-    "client_secret": "MWtD84hVS-TrCZzjnVP-MJj_", // Google Client Secret
-    "refresh_token": "1//04bi3s8IOhNSzCgYIARAAGAQSNwF-L9IrI07JSEm3HIEzL9m3rQSpI6XUbgJO-HMx4LMqRD3L1s1e4w7jpg_YQw9gh5y57qqIveU", // token
+    "client_id": "202264815644.apps.googleusercontent.com", // Google Client ID
+    "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Google Client Secret
+    "refresh_token": "", // token
     "root": "root" // Root directory
      
 };
@@ -19,8 +19,16 @@ var html = `
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/donwa/goindex@${authConfig.version}/themes/${authConfig.theme}/app.js"></script>
-</head>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/ParveenBhadooOfficial/goindex@${authConfig.version}/themes/${authConfig.theme}/app.js"></script>
+  <style>
+  .mdui-theme-primary-blue-grey .mdui-color-theme {
+        background-color: #232427!important;3
+  }
+  body {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #333232;
+  }
+  </style></head>
 <body>
 </body>
 </html>
@@ -138,7 +146,7 @@ class googleDrive {
       return obj.files[0];
     }
 
-    // 通过reqeust cache 来缓存
+    // reqeust cache
     async list(path){
       let id = await this.findPathId(path);
       return this._ls(id);
