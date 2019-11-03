@@ -1,12 +1,12 @@
 var authConfig = {
-    "siteName": "Torrent Drive", // 网站名称
-    "root_pass": "",  // 根目录密码，优先于.password
-    "version" : "1.0.6", // 程序版本
+    "siteName": "Google Drive", // Site Name
+    "root_pass": "",  // Root Password
+    "version" : "1.0.6", // Site Version
     "theme" : "material", // material  classic 
-    "client_id": "202264815644.apps.googleusercontent.com",
-    "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-    "refresh_token": "F-L9Ir-nRPVgwEK8ycY4y7n2k0fvMxhUWj-K_Pk8vtmGWTnkrwgVcCYnqmhZt3ax0p-4yJFg", // 授权 token
-    "root": "root" // 根目录ID Root directory
+    "client_id": "58094879805-2k4u6f17pfn7fm68kg31fcr4ah7slm0d.apps.googleusercontent.com", // Google Client ID
+    "client_secret": "MWtD84hVS-TrCZzjnVP-MJj_", // Google Client Secret
+    "refresh_token": "1//04bi3s8IOhNSzCgYIARAAGAQSNwF-L9IrI07JSEm3HIEzL9m3rQSpI6XUbgJO-HMx4LMqRD3L1s1e4w7jpg_YQw9gh5y57qqIveU", // token
+    "root": "root" // Root directory
      
 };
 
