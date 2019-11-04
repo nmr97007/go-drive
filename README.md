@@ -1,9 +1,11 @@
-![Go Drive](https://raw.githubusercontent.com/ParveenBhadooOfficial/goindex/master/themes/logo.png)  
+![Go Drive](https://raw.githubusercontent.com/ParveenBhadooOfficial/go-drive/master/go-drive-logo.png)  
 
 ## Quick Deployment
 1. Open https://installen.gd.workers.dev/  
 2. Auth and get the refresh_token and paste on line 8 or just copy the full code and paste in Cloudflare workers.
 3. Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/workers)
+
+![Go Drive Dark Mode](https://raw.githubusercontent.com/ParveenBhadooOfficial/go-drive/master/darkmode.png)  
 
 ## Use your own credentials and data (Dark Mode)
 * Open https://console.developers.google.com/apis/credentials
