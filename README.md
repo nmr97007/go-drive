@@ -30,3 +30,5 @@
 * Copy the Code and paste it into https://workers.cloudflare.com Site.
 
 Video will be added shortly.
+
+Origin https://github.com/donwa/goindex
