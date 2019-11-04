@@ -24,9 +24,6 @@ var html = `
   <title>${authConfig.siteName}</title>
   <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/ParveenBhadooOfficial/goindex@${authConfig.version}/themes/${authConfig.theme}/app.js"></script>
   <style>
-  .mdui-toolbar {
-        background-color: #232427!important;
-  }
  .mdui-textfield-input {
       color: #fff;
 }
