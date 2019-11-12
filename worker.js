@@ -1,7 +1,7 @@
 var authConfig = {
 	"siteName": "Google Drive", // Site Name
 	"root_pass": "", // Root Password
-	"version": "1.0", // Site Version
+	"version": "2.0", // Site Version
 	"theme": "material", // material  classic 
     "client_id": "202264815644.apps.googleusercontent.com", // Google Client ID
     "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Google Client Secret
